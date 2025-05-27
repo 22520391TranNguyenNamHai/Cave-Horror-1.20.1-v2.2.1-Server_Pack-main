@@ -10874,33 +10874,33 @@
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/acacia/acacia_mystic_trapdoor": {
+  "alexsmobs:alexsmobs/rattlesnake": {
     "criteria": {
-      "has_logs": "2025-05-27 13:56:38 +0700"
+      "killed_by": "2025-05-27 11:26:49 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/acacia_button": {
+  "biomesoplenty:recipes/misc/red_dye_from_waterlily": {
     "criteria": {
-      "has_planks": "2025-05-27 13:57:41 +0700"
+      "has_flower": "2025-05-27 11:56:27 +0700"
     },
     "done": true
   },
-  "farmersdelight:recipes/food/melon_juice": {
+  "biomesoplenty:recipes/misc/orange_dye_from_orange_cosmos": {
     "criteria": {
-      "has_melon_slice": "2025-05-27 13:56:06 +0700"
+      "has_flower": "2025-05-27 11:56:58 +0700"
     },
     "done": true
   },
-  "mcwbridges:recipes/acacia_log_bridge_middle": {
+  "graveyard:graveyard/haunted_house": {
     "criteria": {
-      "has_planks": "2025-05-27 13:57:41 +0700"
+      "haunted_house": "2025-05-27 12:02:39 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/purple_glazed_terracotta": {
+  "minecraft:recipes/misc/netherite_ingot": {
     "criteria": {
-      "has_purple_terracotta": "2025-05-27 14:31:39 +0700"
+      "has_netherite_scrap": "2025-05-27 12:27:09 +0700"
     },
     "done": true
   },
@@ -10910,21 +10910,39 @@
     },
     "done": true
   },
-  "mcwdoors:recipes/acacia": {
+  "minecraft:recipes/food/cookie": {
     "criteria": {
-      "has_wood": "2025-05-27 13:56:38 +0700"
+      "has_cocoa": "2025-05-27 12:46:49 +0700"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/acacia_table": {
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
     "criteria": {
-      "has_acacia_planks": "2025-05-27 13:57:41 +0700"
+      "has_cobbled_deepslate_slab": "2025-05-27 12:52:36 +0700"
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/acacia/acacia_whispering_trapdoor": {
+  "minecraft:recipes/building_blocks/packed_mud": {
     "criteria": {
-      "has_logs": "2025-05-27 13:56:38 +0700"
+      "has_mud": "2025-05-27 13:01:52 +0700"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/stomp_leafcutter_anthill": {
+    "criteria": {
+      "ex": "2025-05-27 13:04:31 +0700"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/leafcutter_ant_pupa": {
+    "criteria": {
+      "leafcutter_ant_pupa": "2025-05-27 13:26:23 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_juice": {
+    "criteria": {
+      "has_melon_slice": "2025-05-27 13:56:06 +0700"
     },
     "done": true
   },
@@ -10934,9 +10952,39 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/acacia_mail_box": {
+  "minecraft:recipes/building_blocks/melon": {
     "criteria": {
-      "has_acacia_planks": "2025-05-27 13:57:41 +0700"
+      "has_melon": "2025-05-27 13:56:06 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-05-27 13:56:06 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-05-27 13:56:06 +0700"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_mystic_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-05-27 13:56:38 +0700"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/acacia": {
+    "criteria": {
+      "has_wood": "2025-05-27 13:56:38 +0700"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_whispering_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-05-27 13:56:38 +0700"
     },
     "done": true
   },
@@ -10952,27 +11000,117 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/packed_mud": {
-    "criteria": {
-      "has_mud": "2025-05-27 13:01:52 +0700"
-    },
-    "done": true
-  },
   "mcwtrpdoors:recipes/acacia/acacia_barred_trapdoor": {
     "criteria": {
       "has_logs": "2025-05-27 13:56:38 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_ingot": {
+  "mcwtrpdoors:recipes/acacia/acacia_beach_trapdoor": {
     "criteria": {
-      "has_netherite_scrap": "2025-05-27 12:27:09 +0700"
+      "has_logs": "2025-05-27 13:56:38 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/food/cookie": {
+  "mcwtrpdoors:recipes/acacia/acacia_barrel_trapdoor": {
     "criteria": {
-      "has_cocoa": "2025-05-27 12:46:49 +0700"
+      "has_logs": "2025-05-27 13:56:38 +0700"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_paper_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-05-27 13:56:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2025-05-27 13:56:38 +0700"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-05-27 13:56:38 +0700"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_glass_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-05-27 13:56:38 +0700"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_classic_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-05-27 13:56:38 +0700"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_cottage_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-05-27 13:56:38 +0700"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/print_tropical": {
+    "criteria": {
+      "has_logs": "2025-05-27 13:56:38 +0700"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_bark_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-05-27 13:56:38 +0700"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/acacia_bridge_pier": {
+    "criteria": {
+      "has_planks": "2025-05-27 13:56:38 +0700"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_four_panel_trapdoor": {
+    "criteria": {
+      "has_logs": "2025-05-27 13:56:38 +0700"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/building_blocks/acacia_palisade": {
+    "criteria": {
+      "has_log": "2025-05-27 13:56:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2025-05-27 13:56:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2025-05-27 13:57:41 +0700"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/acacia_log_bridge_middle": {
+    "criteria": {
+      "has_planks": "2025-05-27 13:57:41 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/acacia_table": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-27 13:57:41 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/acacia_mail_box": {
+    "criteria": {
+      "has_acacia_planks": "2025-05-27 13:57:41 +0700"
     },
     "done": true
   },
@@ -10994,12 +11132,6 @@
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/acacia/acacia_beach_trapdoor": {
-    "criteria": {
-      "has_logs": "2025-05-27 13:56:38 +0700"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/acacia_chair": {
     "criteria": {
       "has_acacia_planks": "2025-05-27 13:57:41 +0700"
@@ -11018,27 +11150,9 @@
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/acacia/acacia_barrel_trapdoor": {
-    "criteria": {
-      "has_logs": "2025-05-27 13:56:38 +0700"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/acacia_kitchen_drawer": {
     "criteria": {
       "has_acacia_planks": "2025-05-27 13:57:41 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/melon": {
-    "criteria": {
-      "has_melon": "2025-05-27 13:56:06 +0700"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_paper_trapdoor": {
-    "criteria": {
-      "has_logs": "2025-05-27 13:56:38 +0700"
     },
     "done": true
   },
@@ -11048,39 +11162,9 @@
     },
     "done": true
   },
-  "graveyard:graveyard/haunted_house": {
-    "criteria": {
-      "haunted_house": "2025-05-27 12:02:39 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/acacia_wood": {
-    "criteria": {
-      "has_log": "2025-05-27 13:56:38 +0700"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_swamp_trapdoor": {
-    "criteria": {
-      "has_logs": "2025-05-27 13:56:38 +0700"
-    },
-    "done": true
-  },
   "decorative_blocks:recipes/building_blocks/acacia_seat": {
     "criteria": {
       "has_plank": "2025-05-27 13:57:41 +0700"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_glass_trapdoor": {
-    "criteria": {
-      "has_logs": "2025-05-27 13:56:38 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/melon_seeds": {
-    "criteria": {
-      "has_melon": "2025-05-27 13:56:06 +0700"
     },
     "done": true
   },
@@ -11090,39 +11174,15 @@
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/leafcutter_ant_pupa": {
-    "criteria": {
-      "leafcutter_ant_pupa": "2025-05-27 13:26:23 +0700"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/acacia_drawer": {
     "criteria": {
       "has_acacia_planks": "2025-05-27 13:57:41 +0700"
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/rattlesnake": {
-    "criteria": {
-      "killed_by": "2025-05-27 11:26:49 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/acacia_slab": {
     "criteria": {
       "has_planks": "2025-05-27 13:57:41 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/orange_glazed_terracotta": {
-    "criteria": {
-      "has_orange_terracotta": "2025-05-27 14:26:20 +0700"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_classic_trapdoor": {
-    "criteria": {
-      "has_logs": "2025-05-27 13:56:38 +0700"
     },
     "done": true
   },
@@ -11144,51 +11204,9 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/misc/red_dye_from_waterlily": {
-    "criteria": {
-      "has_flower": "2025-05-27 11:56:27 +0700"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/stomp_leafcutter_anthill": {
-    "criteria": {
-      "ex": "2025-05-27 13:04:31 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/acacia_fence_gate": {
     "criteria": {
       "has_planks": "2025-05-27 13:57:41 +0700"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_cottage_trapdoor": {
-    "criteria": {
-      "has_logs": "2025-05-27 13:56:38 +0700"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/print_tropical": {
-    "criteria": {
-      "has_logs": "2025-05-27 13:56:38 +0700"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/misc/orange_dye_from_orange_cosmos": {
-    "criteria": {
-      "has_flower": "2025-05-27 11:56:58 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/glistering_melon_slice": {
-    "criteria": {
-      "has_melon": "2025-05-27 13:56:06 +0700"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_bark_trapdoor": {
-    "criteria": {
-      "has_logs": "2025-05-27 13:56:38 +0700"
     },
     "done": true
   },
@@ -11204,12 +11222,6 @@
     },
     "done": true
   },
-  "mcwbridges:recipes/acacia_bridge_pier": {
-    "criteria": {
-      "has_planks": "2025-05-27 13:56:38 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/acacia_fence": {
     "criteria": {
       "has_planks": "2025-05-27 13:57:41 +0700"
@@ -11222,33 +11234,177 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_deepslate": {
-    "criteria": {
-      "has_cobbled_deepslate_slab": "2025-05-27 12:52:36 +0700"
-    },
-    "done": true
-  },
   "mcwbridges:recipes/rope_acacia_bridge": {
     "criteria": {
       "has_planks": "2025-05-27 13:57:41 +0700"
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/acacia/acacia_four_panel_trapdoor": {
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
     "criteria": {
-      "has_logs": "2025-05-27 13:56:38 +0700"
+      "has_orange_terracotta": "2025-05-27 14:26:20 +0700"
     },
     "done": true
   },
-  "decorative_blocks:recipes/building_blocks/acacia_palisade": {
+  "minecraft:recipes/decorations/purple_glazed_terracotta": {
     "criteria": {
-      "has_log": "2025-05-27 13:56:38 +0700"
+      "has_purple_terracotta": "2025-05-27 14:31:39 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/acacia_planks": {
+  "refurbished_furniture:recipes/misc/constructing/mangrove_mail_box": {
     "criteria": {
-      "has_log": "2025-05-27 13:56:38 +0700"
+      "has_mangrove_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_crate": {
+    "criteria": {
+      "has_mangrove_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_drawer": {
+    "criteria": {
+      "has_mangrove_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/mangrove/mangrove_blossom_trapdoor": {
+    "criteria": {
+      "has_plankss": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_sign": {
+    "criteria": {
+      "has_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_drawer": {
+    "criteria": {
+      "has_mangrove_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_chair": {
+    "criteria": {
+      "has_mangrove_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_cabinetry": {
+    "criteria": {
+      "has_mangrove_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/rope_mangrove_bridge": {
+    "criteria": {
+      "has_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_table": {
+    "criteria": {
+      "has_mangrove_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_door": {
+    "criteria": {
+      "has_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_cutting_board": {
+    "criteria": {
+      "has_mangrove_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_mangrove_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_desk": {
+    "criteria": {
+      "has_mangrove_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mangrove_fence": {
+    "criteria": {
+      "has_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/mangrove_rail_bridge": {
+    "criteria": {
+      "has_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/mangrove_button": {
+    "criteria": {
+      "has_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/building_blocks/mangrove_support": {
+    "criteria": {
+      "has_plank": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/mangrove_log_bridge_middle": {
+    "criteria": {
+      "has_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/building_blocks/mangrove_seat": {
+    "criteria": {
+      "has_plank": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_slab": {
+    "criteria": {
+      "has_planks": "2025-05-27 21:30:51 +0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:compact_necromancy": {
+    "criteria": {
+      "compact_necromancy_0": "2025-05-27 21:39:16 +0700"
     },
     "done": true
   },
