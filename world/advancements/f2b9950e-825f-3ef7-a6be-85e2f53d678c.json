@@ -9746,6 +9746,18 @@
     },
     "done": true
   },
+  "born_in_chaos_v1:dark_blacksmith": {
+    "criteria": {
+      "dark_blacksmith_0": "2025-05-27 16:29:18 +0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:lifeturnedouttobeacomedy": {
+    "criteria": {
+      "lifeturnedouttobeacomedy_0": "2025-05-27 17:09:30 +0700"
+    },
+    "done": true
+  },
   "born_in_chaos_v1:fighting_nightmares": {
     "criteria": {
       "fighting_nightmares_0": "2025-05-27 17:27:16 +0700"
@@ -9758,27 +9770,27 @@
     },
     "done": false
   },
-  "born_in_chaos_v1:good_demoman": {
-    "criteria": {
-      "good_demoman_0": "2025-05-27 17:40:27 +0700"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:lifeturnedouttobeacomedy": {
-    "criteria": {
-      "lifeturnedouttobeacomedy_0": "2025-05-27 17:09:30 +0700"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/slicing/green_dye_from_seagrass": {
     "criteria": {
       "has_seagrass": "2025-05-27 17:38:18 +0700"
     },
     "done": true
   },
-  "born_in_chaos_v1:dark_blacksmith": {
+  "born_in_chaos_v1:good_demoman": {
     "criteria": {
-      "dark_blacksmith_0": "2025-05-27 16:29:18 +0700"
+      "good_demoman_0": "2025-05-27 17:40:27 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_chiseled_deepslate": {
+    "criteria": {
+      "has_slab": "2025-05-28 13:58:15 +0700"
+    },
+    "done": true
+  },
+  "undead_revamp2:mommy": {
+    "criteria": {
+      "mommy_0": "2025-05-28 21:48:07 +0700"
     },
     "done": true
   },
