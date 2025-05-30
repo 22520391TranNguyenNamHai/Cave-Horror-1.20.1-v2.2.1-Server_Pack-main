@@ -51,6 +51,7 @@
       "dune_beach": "2025-05-24 19:40:59 +0700",
       "seasonal_forest": "2025-05-09 20:12:21 +0700",
       "dead_forest": "2025-05-22 09:38:15 +0700",
+      "pasture": "2025-05-30 11:26:13 +0700",
       "volcanic_plains": "2025-05-24 20:38:49 +0700",
       "lavender_field": "2025-05-16 14:49:52 +0700",
       "fir_clearing": "2025-05-14 22:08:39 +0700",
@@ -2126,10 +2127,12 @@
       "minecraft:taiga": "2025-05-10 21:46:07 +0700",
       "minecraft:deep_ocean": "2025-05-10 21:44:25 +0700",
       "minecraft:frozen_river": "2025-05-09 22:17:40 +0700",
+      "minecraft:cherry_grove": "2025-05-30 11:28:57 +0700",
       "minecraft:birch_forest": "2025-05-12 23:09:44 +0700",
       "minecraft:wooded_badlands": "2025-05-24 21:07:57 +0700",
       "minecraft:badlands": "2025-05-24 21:03:19 +0700",
       "minecraft:beach": "2025-05-14 12:22:29 +0700",
+      "minecraft:dark_forest": "2025-05-30 11:38:22 +0700",
       "minecraft:river": "2025-05-09 20:30:06 +0700",
       "minecraft:lukewarm_ocean": "2025-05-24 19:39:31 +0700",
       "minecraft:stony_shore": "2025-05-09 22:27:35 +0700",
@@ -2245,6 +2248,7 @@
       "minecraft:piglin": "2025-05-24 11:27:30 +0700",
       "minecraft:enderman": "2025-05-20 12:19:54 +0700",
       "minecraft:stray": "2025-05-21 14:40:17 +0700",
+      "minecraft:silverfish": "2025-05-29 20:51:43 +0700",
       "minecraft:zombie": "2025-05-09 20:43:33 +0700",
       "minecraft:drowned": "2025-05-13 10:38:35 +0700",
       "minecraft:zombie_villager": "2025-05-16 16:24:56 +0700"
@@ -8052,6 +8056,240 @@
   "comforts:sleeping_bag_blue": {
     "criteria": {
       "has_blue_wool": "2025-05-28 22:04:36 +0700"
+    },
+    "done": true
+  },
+  "arphex:fireblaster_obtain": {
+    "criteria": {
+      "fireblaster_obtain_0": "2025-05-29 11:49:32 +0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:horrorofthe_depths": {
+    "criteria": {
+      "horrorofthe_depths_0": "2025-05-29 12:09:02 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-05-29 21:07:57 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/red_toilet": {
+    "criteria": {
+      "has_red_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/red_kitchen_storage_cabinet_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/red_cooler_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/red_trampoline_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_red2": {
+    "criteria": {
+      "recipe_condition2": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_red2": {
+    "criteria": {
+      "recipe_condition2": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/red_grill_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/red_sofa_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_red_pane2": {
+    "criteria": {
+      "recipe_condition2": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/red_toilet": {
+    "criteria": {
+      "has_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_red_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/red_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_red_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_rose_red": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/red_kitchen_cabinetry_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_red2": {
+    "criteria": {
+      "recipe_condition2": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/red_kitchen_cabinetry": {
+    "criteria": {
+      "has_red_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/red_kitchen_sink_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/red_kitchen_sink": {
+    "criteria": {
+      "has_red_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/red_bath": {
+    "criteria": {
+      "has_red_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_red_pane2": {
+    "criteria": {
+      "recipe_condition2": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/red_lamp_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/red_stool_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_red_pane2": {
+    "criteria": {
+      "recipe_condition2": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_red2": {
+    "criteria": {
+      "recipe_condition2": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/red_basin": {
+    "criteria": {
+      "has_red_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/red_kitchen_drawer_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/red_kitchen_drawer": {
+    "criteria": {
+      "has_red_dye": "2025-05-29 21:10:30 +0700"
+    },
+    "done": true
+  },
+  "undead_revamp2:daddy": {
+    "criteria": {
+      "daddy_0": "2025-05-30 11:32:44 +0700"
     },
     "done": true
   },

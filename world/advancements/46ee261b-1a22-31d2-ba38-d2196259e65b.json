@@ -2639,6 +2639,7 @@
       "minecraft:flower_forest": "2025-05-24 12:51:36 +0700",
       "minecraft:frozen_peaks": "2025-05-12 21:50:11 +0700",
       "minecraft:old_growth_birch_forest": "2025-05-10 14:03:14 +0700",
+      "minecraft:deep_dark": "2025-05-29 21:09:38 +0700",
       "minecraft:savanna": "2025-05-23 20:57:41 +0700",
       "minecraft:plains": "2025-05-09 20:59:34 +0700"
     },
@@ -8534,6 +8535,36 @@
   "minecraft:recipes/misc/brick": {
     "criteria": {
       "has_clay_ball": "2025-05-28 20:34:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-05-29 21:15:56 +0700"
+    },
+    "done": true
+  },
+  "arphex:darkness_bane": {
+    "criteria": {
+      "darkness_bane_0": "2025-05-29 21:42:55 +0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:unitywith_darknessachievement": {
+    "criteria": {
+      "unitywith_darknessachievement_0": "2025-05-29 21:54:48 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-30 11:03:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2025-05-30 11:03:25 +0700"
     },
     "done": true
   },

@@ -1,0 +1,17 @@
+{
+	id: "6f26efed-f4e5-3d5e-8564-0f8a787b9c9a"
+	type: "player"
+	player_name: "DKon"
+	ranks: {
+		6f26efed-f4e5-3d5e-8564-0f8a787b9c9a: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "DKon"
+		"ftbteams:description": ""
+		"ftbteams:color": "#B4FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
