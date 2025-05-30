@@ -159,6 +159,7 @@
       "clover_patch": "2025-05-10 14:04:21 +0700",
       "old_growth_woodland": "2025-05-16 13:24:52 +0700",
       "maple_woods": "2025-05-10 13:48:00 +0700",
+      "crystalline_chasm": "2025-05-30 13:40:00 +0700",
       "withered_abyss": "2025-05-24 21:18:23 +0700",
       "field": "2025-05-14 21:49:49 +0700",
       "orchard": "2025-05-14 22:10:59 +0700",
@@ -1714,6 +1715,7 @@
       "minecraft:blaze": "2025-05-24 21:28:14 +0700",
       "minecraft:skeleton": "2025-05-09 20:36:09 +0700",
       "minecraft:ravager": "2025-05-21 13:13:07 +0700",
+      "minecraft:ghast": "2025-05-30 14:48:50 +0700",
       "minecraft:hoglin": "2025-05-29 09:31:14 +0700",
       "minecraft:vindicator": "2025-05-21 13:14:53 +0700",
       "minecraft:magma_cube": "2025-05-24 23:30:22 +0700",
@@ -5574,6 +5576,7 @@
       "beetroot": "2025-05-12 21:57:29 +0700",
       "brown_mushroom": "2025-05-24 19:49:18 +0700",
       "sugar_cane": "2025-05-10 11:37:54 +0700",
+      "potato": "2025-05-30 15:40:45 +0700",
       "wheat": "2025-05-10 11:33:36 +0700",
       "carrot": "2025-05-11 11:56:37 +0700"
     },
@@ -6440,6 +6443,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:sheep": "2025-05-30 14:39:55 +0700",
       "minecraft:cow": "2025-05-10 15:00:40 +0700",
       "minecraft:chicken": "2025-05-29 10:13:36 +0700",
       "minecraft:horse": "2025-05-24 19:15:36 +0700"
@@ -8568,6 +8572,7 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-05-16 14:58:12 +0700",
       "minecraft:nether_wastes": "2025-05-24 21:11:42 +0700",
+      "minecraft:soul_sand_valley": "2025-05-30 13:39:38 +0700",
       "minecraft:warped_forest": "2025-05-29 09:20:55 +0700"
     },
     "done": false
@@ -10112,6 +10117,126 @@
   "comforts:hammock_light_gray": {
     "criteria": {
       "has_light_gray_wool": "2025-05-29 11:20:54 +0700"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/straddler": {
+    "criteria": {
+      "killed_by": "2025-05-30 12:44:44 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-05-30 14:16:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2025-05-30 14:16:39 +0700"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/building_blocks/spruce_beam": {
+    "criteria": {
+      "has_stripped_log": "2025-05-30 14:16:39 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_slab_from_reinforced_cobblestone_stonecutting": {
+    "criteria": {
+      "has_reinforced_cobblestone": "2025-05-30 14:21:28 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/retinal_scanner": {
+    "criteria": {
+      "has_stone": "2025-05-30 14:21:28 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_wall": {
+    "criteria": {
+      "has_block": "2025-05-30 14:21:28 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_stairs": {
+    "criteria": {
+      "has_block": "2025-05-30 14:21:28 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_wall_from_reinforced_cobblestone_stonecutting": {
+    "criteria": {
+      "has_reinforced_cobblestone": "2025-05-30 14:21:28 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_stone": {
+    "criteria": {
+      "has_item": "2025-05-30 14:21:28 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/keycard_reader": {
+    "criteria": {
+      "has_stone": "2025-05-30 14:21:28 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_slab": {
+    "criteria": {
+      "has_block": "2025-05-30 14:21:28 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/inventory_scanner": {
+    "criteria": {
+      "has_stone": "2025-05-30 14:21:28 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_stairs_from_reinforced_cobblestone_stonecutting": {
+    "criteria": {
+      "has_reinforced_cobblestone": "2025-05-30 14:21:28 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_lever": {
+    "criteria": {
+      "has_cobble": "2025-05-30 14:21:28 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/red_dye_from_sweet_berries": {
+    "criteria": {
+      "has_sweet_berries": "2025-05-30 15:39:13 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/sweet_berry_cookie": {
+    "criteria": {
+      "has_sweet_berries": "2025-05-30 15:39:13 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cabbage_rolls": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-30 15:39:50 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/frying/sweet_berry_jam": {
+    "criteria": {
+      "has_ingredient": "2025-05-30 15:39:13 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/cabbage_crate": {
+    "criteria": {
+      "has_cabbage": "2025-05-30 15:39:50 +0700"
     },
     "done": true
   },

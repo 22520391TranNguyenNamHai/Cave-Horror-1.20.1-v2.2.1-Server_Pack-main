@@ -22,6 +22,7 @@
       "minecraft:snowy_slopes": "2025-05-22 09:32:11 +0700",
       "minecraft:old_growth_pine_taiga": "2025-05-12 22:07:55 +0700",
       "minecraft:taiga": "2025-05-12 21:36:47 +0700",
+      "minecraft:frozen_river": "2025-05-30 15:20:45 +0700",
       "minecraft:cherry_grove": "2025-05-24 13:27:12 +0700",
       "minecraft:birch_forest": "2025-05-12 21:42:12 +0700",
       "minecraft:beach": "2025-05-23 16:57:53 +0700",
@@ -29,11 +30,17 @@
       "minecraft:river": "2025-05-12 22:07:40 +0700",
       "minecraft:lukewarm_ocean": "2025-05-23 21:22:59 +0700",
       "minecraft:stony_shore": "2025-05-12 21:12:47 +0700",
+      "minecraft:snowy_plains": "2025-05-30 15:27:28 +0700",
+      "minecraft:snowy_taiga": "2025-05-30 15:20:49 +0700",
       "minecraft:grove": "2025-05-24 13:44:42 +0700",
       "minecraft:cold_ocean": "2025-05-14 15:02:02 +0700",
       "minecraft:forest": "2025-05-12 21:47:04 +0700",
+      "minecraft:deep_cold_ocean": "2025-05-30 15:56:48 +0700",
+      "minecraft:frozen_ocean": "2025-05-30 15:17:34 +0700",
+      "minecraft:deep_frozen_ocean": "2025-05-30 15:56:47 +0700",
       "minecraft:ocean": "2025-05-12 21:48:54 +0700",
       "minecraft:old_growth_spruce_taiga": "2025-05-12 22:01:39 +0700",
+      "minecraft:snowy_beach": "2025-05-30 15:15:45 +0700",
       "minecraft:deep_lukewarm_ocean": "2025-05-23 21:23:45 +0700",
       "minecraft:frozen_peaks": "2025-05-24 13:49:27 +0700",
       "minecraft:old_growth_birch_forest": "2025-05-12 21:14:49 +0700",
@@ -2225,22 +2232,34 @@
     "criteria": {
       "woodland": "2025-05-23 16:58:55 +0700",
       "shrubland": "2025-05-12 21:45:37 +0700",
+      "snowblossom_grove": "2025-05-30 15:36:04 +0700",
       "rocky_shrubland": "2025-05-12 22:22:01 +0700",
       "highland": "2025-05-24 10:20:10 +0700",
       "jade_cliffs": "2025-05-24 13:41:11 +0700",
       "clover_patch": "2025-05-19 20:00:31 +0700",
+      "cold_desert": "2025-05-30 15:55:39 +0700",
       "old_growth_woodland": "2025-05-23 17:01:27 +0700",
       "maple_woods": "2025-05-18 20:42:23 +0700",
       "field": "2025-05-12 22:01:52 +0700",
       "orchard": "2025-05-23 22:08:36 +0700",
       "lavender_forest": "2025-05-23 21:57:30 +0700",
+      "coniferous_forest": "2025-05-30 15:37:29 +0700",
+      "forested_field": "2025-05-30 15:07:47 +0700",
+      "old_growth_dead_forest": "2025-05-30 15:35:48 +0700",
       "redwood_forest": "2025-05-19 20:01:35 +0700",
       "visceral_heap": "2025-05-23 23:23:50 +0700",
       "dune_beach": "2025-05-23 17:07:04 +0700",
+      "seasonal_forest": "2025-05-30 15:10:37 +0700",
       "pasture": "2025-05-23 21:26:10 +0700",
       "lavender_field": "2025-05-23 16:53:59 +0700",
+      "fir_clearing": "2025-05-30 15:37:57 +0700",
+      "pumpkin_patch": "2025-05-30 15:45:53 +0700",
       "grassland": "2025-05-12 21:43:46 +0700",
-      "undergrowth": "2025-05-12 22:38:41 +0700"
+      "snowy_coniferous_forest": "2025-05-30 15:15:56 +0700",
+      "snowy_fir_clearing": "2025-05-30 15:21:07 +0700",
+      "tundra": "2025-05-30 15:54:17 +0700",
+      "undergrowth": "2025-05-12 22:38:41 +0700",
+      "ominous_woods": "2025-05-30 15:11:40 +0700"
     },
     "done": false
   },
@@ -2352,6 +2371,7 @@
       "cooked_mutton": "2025-05-16 16:06:46 +0700",
       "cooked_beef": "2025-05-12 22:19:38 +0700",
       "beef": "2025-05-12 21:47:36 +0700",
+      "baked_potato": "2025-05-30 13:50:49 +0700",
       "cooked_cod": "2025-05-19 10:38:47 +0700",
       "bread": "2025-05-16 14:55:59 +0700",
       "rotten_flesh": "2025-05-12 22:10:33 +0700",
@@ -6830,6 +6850,7 @@
       "entered_tower_of_the_undead": "2025-05-24 11:25:11 +0700",
       "entered_stables": "2025-05-23 17:14:25 +0700",
       "entered_druid_circle": "2025-05-24 13:47:13 +0700",
+      "entered_castle": "2025-05-30 15:24:45 +0700",
       "entered_ruined_building": "2025-05-23 16:54:11 +0700"
     },
     "done": false
@@ -8499,6 +8520,150 @@
   "minecraft:recipes/building_blocks/mangrove_slab": {
     "criteria": {
       "has_planks": "2025-05-30 11:46:42 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/steak_and_potatoes": {
+    "criteria": {
+      "has_baked_potato": "2025-05-30 13:50:45 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/stuffed_potato": {
+    "criteria": {
+      "has_baked_potato": "2025-05-30 13:50:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2025-05-30 13:54:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2025-05-30 13:54:28 +0700"
+    },
+    "done": true
+  },
+  "undead_revamp2:oneskelly": {
+    "criteria": {
+      "oneskelly_0": "2025-05-30 13:57:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2025-05-30 14:03:57 +0700"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/orcas_might": {
+    "criteria": {
+      "all_effects": "2025-05-30 15:32:29 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_slab_from_reinforced_cobblestone_stonecutting": {
+    "criteria": {
+      "has_reinforced_cobblestone": "2025-05-30 14:21:18 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/retinal_scanner": {
+    "criteria": {
+      "has_stone": "2025-05-30 14:21:18 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_wall": {
+    "criteria": {
+      "has_block": "2025-05-30 14:21:18 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_stairs": {
+    "criteria": {
+      "has_block": "2025-05-30 14:21:18 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_wall_from_reinforced_cobblestone_stonecutting": {
+    "criteria": {
+      "has_reinforced_cobblestone": "2025-05-30 14:21:18 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_stone": {
+    "criteria": {
+      "has_item": "2025-05-30 14:21:18 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/keycard_reader": {
+    "criteria": {
+      "has_stone": "2025-05-30 14:21:18 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/fir_wood": {
+    "criteria": {
+      "has_log": "2025-05-30 15:42:02 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_slab": {
+    "criteria": {
+      "has_block": "2025-05-30 14:21:18 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/fir_planks": {
+    "criteria": {
+      "has_logs": "2025-05-30 15:42:02 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/inventory_scanner": {
+    "criteria": {
+      "has_stone": "2025-05-30 14:21:18 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/horse_feed": {
+    "criteria": {
+      "has_golden_carrot": "2025-05-30 15:25:17 +0700"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:seven_world_wonders": {
+    "criteria": {
+      "entered_castle": "2025-05-30 15:24:45 +0700"
+    },
+    "done": false
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_stairs_from_reinforced_cobblestone_stonecutting": {
+    "criteria": {
+      "has_reinforced_cobblestone": "2025-05-30 14:21:18 +0700"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:wars_and_kingdoms": {
+    "criteria": {
+      "entered_castle": "2025-05-30 15:24:45 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_lever": {
+    "criteria": {
+      "has_cobble": "2025-05-30 14:21:18 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/universal_owner_changer": {
+    "criteria": {
+      "has_name_tag": "2025-05-30 14:23:58 +0700"
     },
     "done": true
   },

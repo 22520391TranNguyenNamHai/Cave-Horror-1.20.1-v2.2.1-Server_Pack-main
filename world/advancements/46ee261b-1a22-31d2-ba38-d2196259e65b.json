@@ -32,6 +32,7 @@
       "highland": "2025-05-23 23:17:31 +0700",
       "clover_patch": "2025-05-23 16:45:22 +0700",
       "maple_woods": "2025-05-10 13:40:54 +0700",
+      "withered_abyss": "2025-05-30 13:50:54 +0700",
       "field": "2025-05-11 14:04:09 +0700",
       "orchard": "2025-05-23 21:02:01 +0700",
       "lavender_forest": "2025-05-23 23:17:34 +0700",
@@ -1566,6 +1567,7 @@
       "cooked_cod": "2025-05-19 11:39:48 +0700",
       "pumpkin_pie": "2025-05-11 11:14:43 +0700",
       "bread": "2025-05-09 20:14:32 +0700",
+      "golden_apple": "2025-05-30 15:48:33 +0700",
       "golden_carrot": "2025-05-10 13:43:53 +0700",
       "cooked_rabbit": "2025-05-11 09:58:28 +0700",
       "cooked_salmon": "2025-05-11 13:17:30 +0700",
@@ -1991,6 +1993,7 @@
       "minecraft:spider": "2025-05-09 20:51:24 +0700",
       "minecraft:creeper": "2025-05-16 15:52:24 +0700",
       "minecraft:evoker": "2025-05-23 17:16:50 +0700",
+      "minecraft:phantom": "2025-05-30 14:31:15 +0700",
       "minecraft:zombified_piglin": "2025-05-14 11:37:57 +0700",
       "minecraft:witch": "2025-05-16 23:01:22 +0700",
       "minecraft:cave_spider": "2025-05-16 16:31:36 +0700",
@@ -8011,6 +8014,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2025-05-30 12:44:42 +0700",
       "minecraft:nether_wastes": "2025-05-23 21:21:49 +0700",
       "minecraft:basalt_deltas": "2025-05-23 21:33:52 +0700"
     },
@@ -8565,6 +8569,90 @@
   "minecraft:recipes/misc/bowl": {
     "criteria": {
       "has_brown_mushroom": "2025-05-30 11:03:25 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_slab_from_reinforced_cobblestone_stonecutting": {
+    "criteria": {
+      "has_reinforced_cobblestone": "2025-05-30 14:34:29 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/retinal_scanner": {
+    "criteria": {
+      "has_stone": "2025-05-30 14:34:29 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_wall": {
+    "criteria": {
+      "has_block": "2025-05-30 14:34:29 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_stairs": {
+    "criteria": {
+      "has_block": "2025-05-30 14:34:29 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_wall_from_reinforced_cobblestone_stonecutting": {
+    "criteria": {
+      "has_reinforced_cobblestone": "2025-05-30 14:34:29 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_stone": {
+    "criteria": {
+      "has_item": "2025-05-30 14:34:29 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/keycard_reader": {
+    "criteria": {
+      "has_stone": "2025-05-30 14:34:29 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_slab": {
+    "criteria": {
+      "has_block": "2025-05-30 14:34:29 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/inventory_scanner": {
+    "criteria": {
+      "has_stone": "2025-05-30 14:34:29 +0700"
+    },
+    "done": true
+  },
+  "undead_revamp2:daddy": {
+    "criteria": {
+      "daddy_0": "2025-05-30 13:42:11 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_cobblestone_stairs_from_reinforced_cobblestone_stonecutting": {
+    "criteria": {
+      "has_reinforced_cobblestone": "2025-05-30 14:34:29 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_chiseled_deepslate": {
+    "criteria": {
+      "has_slab": "2025-05-30 14:18:35 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_lever": {
+    "criteria": {
+      "has_cobble": "2025-05-30 14:34:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-05-30 12:39:40 +0700"
     },
     "done": true
   },
