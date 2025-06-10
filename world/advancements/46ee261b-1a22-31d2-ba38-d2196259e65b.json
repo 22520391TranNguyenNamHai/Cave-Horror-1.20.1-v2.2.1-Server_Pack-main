@@ -29,6 +29,7 @@
       "woodland": "2025-05-23 21:01:46 +0700",
       "shrubland": "2025-05-14 13:39:54 +0700",
       "rocky_shrubland": "2025-05-23 23:04:50 +0700",
+      "erupting_inferno": "2025-06-09 10:08:52 +0700",
       "highland": "2025-05-23 23:17:31 +0700",
       "clover_patch": "2025-05-23 16:45:22 +0700",
       "maple_woods": "2025-05-10 13:40:54 +0700",
@@ -40,6 +41,8 @@
       "coniferous_forest": "2025-05-10 13:35:02 +0700",
       "forested_field": "2025-05-11 14:12:03 +0700",
       "spider_nest": "2025-05-23 23:44:41 +0700",
+      "dryland": "2025-06-09 10:18:18 +0700",
+      "lush_desert": "2025-06-09 10:17:45 +0700",
       "redwood_forest": "2025-05-11 15:06:11 +0700",
       "visceral_heap": "2025-05-23 23:23:55 +0700",
       "seasonal_orchard": "2025-05-09 20:59:31 +0700",
@@ -1570,6 +1573,7 @@
       "golden_apple": "2025-05-30 15:48:33 +0700",
       "golden_carrot": "2025-05-10 13:43:53 +0700",
       "cooked_rabbit": "2025-05-11 09:58:28 +0700",
+      "cooked_chicken": "2025-06-07 14:19:37 +0700",
       "cooked_salmon": "2025-05-11 13:17:30 +0700",
       "carrot": "2025-05-09 20:52:24 +0700"
     },
@@ -1990,6 +1994,7 @@
       "minecraft:zoglin": "2025-05-28 20:20:14 +0700",
       "minecraft:ghast": "2025-05-23 22:00:58 +0700",
       "minecraft:hoglin": "2025-05-24 21:23:56 +0700",
+      "minecraft:vindicator": "2025-06-10 21:06:51 +0700",
       "minecraft:spider": "2025-05-09 20:51:24 +0700",
       "minecraft:creeper": "2025-05-16 15:52:24 +0700",
       "minecraft:evoker": "2025-05-23 17:16:50 +0700",
@@ -2621,6 +2626,8 @@
       "minecraft:deep_ocean": "2025-05-16 13:39:20 +0700",
       "minecraft:frozen_river": "2025-05-09 22:23:42 +0700",
       "minecraft:birch_forest": "2025-05-11 10:39:26 +0700",
+      "minecraft:wooded_badlands": "2025-06-09 10:09:27 +0700",
+      "minecraft:badlands": "2025-06-09 10:10:33 +0700",
       "minecraft:beach": "2025-05-14 13:48:49 +0700",
       "minecraft:dark_forest": "2025-05-24 12:13:05 +0700",
       "minecraft:river": "2025-05-09 20:26:37 +0700",
@@ -2634,6 +2641,7 @@
       "minecraft:lush_caves": "2025-05-16 15:44:26 +0700",
       "minecraft:deep_cold_ocean": "2025-05-11 09:54:33 +0700",
       "minecraft:frozen_ocean": "2025-05-20 21:32:44 +0700",
+      "minecraft:desert": "2025-06-09 10:10:56 +0700",
       "minecraft:deep_frozen_ocean": "2025-05-20 21:30:52 +0700",
       "minecraft:ocean": "2025-05-10 22:46:53 +0700",
       "minecraft:old_growth_spruce_taiga": "2025-05-16 13:31:21 +0700",
@@ -5222,7 +5230,8 @@
       "entered_stables": "2025-05-23 22:19:33 +0700",
       "entered_pirate_ship": "2025-05-11 09:41:51 +0700",
       "entered_large_dungeon": "2025-05-14 22:05:05 +0700",
-      "entered_castle": "2025-05-14 14:05:19 +0700"
+      "entered_castle": "2025-05-14 14:05:19 +0700",
+      "entered_desert_tomb": "2025-06-09 10:16:47 +0700"
     },
     "done": false
   },
@@ -8016,7 +8025,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-05-30 12:44:42 +0700",
       "minecraft:nether_wastes": "2025-05-23 21:21:49 +0700",
-      "minecraft:basalt_deltas": "2025-05-23 21:33:52 +0700"
+      "minecraft:basalt_deltas": "2025-05-23 21:33:52 +0700",
+      "minecraft:warped_forest": "2025-06-07 22:23:52 +0700"
     },
     "done": false
   },
@@ -8572,6 +8582,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-05-30 12:39:40 +0700"
+    },
+    "done": true
+  },
+  "undead_revamp2:daddy": {
+    "criteria": {
+      "daddy_0": "2025-05-30 13:42:11 +0700"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_chiseled_deepslate": {
+    "criteria": {
+      "has_slab": "2025-05-30 14:18:35 +0700"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/reinforced_cobblestone_slab_from_reinforced_cobblestone_stonecutting": {
     "criteria": {
       "has_reinforced_cobblestone": "2025-05-30 14:34:29 +0700"
@@ -8626,21 +8654,9 @@
     },
     "done": true
   },
-  "undead_revamp2:daddy": {
-    "criteria": {
-      "daddy_0": "2025-05-30 13:42:11 +0700"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/reinforced_cobblestone_stairs_from_reinforced_cobblestone_stonecutting": {
     "criteria": {
       "has_reinforced_cobblestone": "2025-05-30 14:34:29 +0700"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/reinforced_chiseled_deepslate": {
-    "criteria": {
-      "has_slab": "2025-05-30 14:18:35 +0700"
     },
     "done": true
   },
@@ -8650,11 +8666,377 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/mojang_banner_pattern": {
+  "arphex:hellblaster_obtain": {
     "criteria": {
-      "has_enchanted_golden_apple": "2025-05-30 12:39:40 +0700"
+      "hellblaster_obtain_0": "2025-06-07 14:25:38 +0700"
     },
     "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/green_dye_from_seagrass": {
+    "criteria": {
+      "has_seagrass": "2025-06-07 18:30:59 +0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:junior_summoner": {
+    "criteria": {
+      "junior_summoner_0": "2025-06-07 18:31:20 +0700"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/string_from_feather": {
+    "criteria": {
+      "has_feather": "2025-06-07 18:42:00 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/umbran_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-06-07 21:00:32 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/umbran_fence": {
+    "criteria": {
+      "has_planks": "2025-06-07 21:00:32 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/umbran_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-06-07 21:00:32 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/umbran_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-06-07 21:00:32 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/umbran_button": {
+    "criteria": {
+      "has_planks": "2025-06-07 21:00:32 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/umbran_stairs": {
+    "criteria": {
+      "has_planks": "2025-06-07 21:00:32 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/umbran_slab": {
+    "criteria": {
+      "has_planks": "2025-06-07 21:00:32 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/umbran_sign": {
+    "criteria": {
+      "has_umbran_planks": "2025-06-07 21:00:32 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/umbran_door": {
+    "criteria": {
+      "has_planks": "2025-06-07 21:00:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-06-07 22:26:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-06-08 21:47:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-06-08 21:47:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-06-08 21:47:01 +0700"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/deepslate_tile_bridge_pier": {
+    "criteria": {
+      "has_planks": "2025-06-08 21:47:01 +0700"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/deepslate_tile_bridge": {
+    "criteria": {
+      "has_planks": "2025-06-08 21:47:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-06-08 21:47:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-06-08 21:47:01 +0700"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_deepslate_tiles_bridge": {
+    "criteria": {
+      "has_planks": "2025-06-08 21:47:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-06-08 21:47:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-06-08 21:47:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2025-06-08 21:50:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs": {
+    "criteria": {
+      "has_polished_blackstone": "2025-06-09 09:58:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-06-09 09:58:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_button": {
+    "criteria": {
+      "has_polished_blackstone": "2025-06-09 09:58:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab": {
+    "criteria": {
+      "has_polished_blackstone": "2025-06-09 09:58:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-06-09 09:58:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone": "2025-06-09 09:58:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-06-09 09:58:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-06-09 09:58:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-06-09 09:58:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-06-09 09:58:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_pressure_plate": {
+    "criteria": {
+      "has_polished_blackstone": "2025-06-09 09:58:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-06-09 09:58:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall": {
+    "criteria": {
+      "has_polished_blackstone": "2025-06-09 09:58:27 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-06-09 09:58:27 +0700"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/tarantula_hawk": {
+    "criteria": {
+      "killed": "2025-06-09 10:13:17 +0700"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rattlesnake": {
+    "criteria": {
+      "killed": "2025-06-09 10:52:24 +0700"
+    },
+    "done": true
+  },
+  "arphex:moth_ward": {
+    "criteria": {
+      "moth_ward_0": "2025-06-09 21:41:25 +0700"
+    },
+    "done": true
+  },
+  "arphex:scorpioid_killed": {
+    "criteria": {
+      "scorpioid_killed_0": "2025-06-09 21:42:27 +0700"
+    },
+    "done": true
+  },
+  "arphex:moth_kill": {
+    "criteria": {
+      "moth_kill_0": "2025-06-09 21:42:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_the_recipe": "2025-06-09 22:17:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2025-06-10 12:51:44 +0700"
+    },
+    "done": true
+  },
+  "backpacked:recipes/misc/backpack": {
+    "criteria": {
+      "has_hide": "2025-06-10 12:51:44 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2025-06-10 12:59:01 +0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:guidetothenextworld": {
+    "criteria": {
+      "guidetothenextworld_0": "2025-06-10 12:59:47 +0700"
+    },
+    "done": true
+  },
+  "arphex:ascendant_staff_craft": {
+    "criteria": {
+      "ascendant_staff_craft_0": "2025-06-10 14:05:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2025-06-10 14:09:12 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/jacaranda_slab": {
+    "criteria": {
+      "has_planks": "2025-06-10 14:32:13 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-06-10 14:32:13 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_door": {
+    "criteria": {
+      "has_planks": "2025-06-10 14:32:13 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/jacaranda_fence": {
+    "criteria": {
+      "has_planks": "2025-06-10 14:32:13 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_button": {
+    "criteria": {
+      "has_planks": "2025-06-10 14:32:13 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-06-10 14:32:13 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/jacaranda_sign": {
+    "criteria": {
+      "has_jacaranda_planks": "2025-06-10 14:32:13 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/jacaranda_stairs": {
+    "criteria": {
+      "has_planks": "2025-06-10 14:32:13 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/jacaranda_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-06-10 14:32:13 +0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_creator": {
+    "criteria": {
+      "dark_creator_0": "2025-06-10 21:14:00 +0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:charm_collector": {
+    "criteria": {
+      "charm_collector_4": "2025-06-10 21:15:56 +0700"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
